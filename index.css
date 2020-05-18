@@ -1,0 +1,44 @@
+<style>
+	h1 {
+	font-family: Graphite Std;
+	text-align: center;
+	}
+	
+	h2 {color: grey}
+	
+	img {
+		border-radius: 50%;
+		float: right;
+	}	
+	
+	.header {
+		font-family: Graphite Std;
+  		background-color: teal;
+  		text-align: center;
+ 		padding: 50px;
+	}
+	
+	/* Create three equal columns that floats next to each other */
+	.column {
+		font-family: Graphite Std;
+ 		float: left;
+ 		width: 50%;
+	}
+
+	/* Clear floats after the columns */
+	.row:after {
+  		content: "";
+  		display: table;
+  		clear: both;
+	}
+
+	/* Responsive layout*/
+	@media screen and (max-width: 600px) {
+ 	 .column {width: 100%}
+	}
+	
+	.footer {
+		font-family: Graphite Std;
+		text-align: center;
+	}
+</style>
